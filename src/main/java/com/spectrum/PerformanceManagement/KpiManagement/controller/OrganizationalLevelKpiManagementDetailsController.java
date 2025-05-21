@@ -1,0 +1,19 @@
+package com.spectrum.PerformanceManagement.KpiManagement.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.spectrum.PerformanceManagement.KpiManagement.repository.OrganizationalLevelKpiManagementDetailsRepository;
+import com.spectrum.PerformanceManagement.KpiManagement.service.OrganizationalLevelKpiManagementDetailsService;
+
+@RestController
+
+public class OrganizationalLevelKpiManagementDetailsController {
+
+@Autowired
+private OrganizationalLevelKpiManagementDetailsRepository organizationalLevelKpiManagementDetailsRepository;
+
+@Autowired
+private OrganizationalLevelKpiManagementDetailsService organizationalLevelKpiManagementDetailsService;
+
+}
